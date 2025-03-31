@@ -1,0 +1,24 @@
+{
+  "name": "Bleach_Audio_Time_Editor",
+  "version": "1.0.0",
+  "description": "To use this tool first recomend do a backup of your bgm.bnk",
+  "main": "bnk_editor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Perham94/Bleach_Audio_Time_Editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Perham94/Bleach_Audio_Time_Editor/issues"
+  },
+  "homepage": "https://github.com/Perham94/Bleach_Audio_Time_Editor#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.2"
+  }
+}

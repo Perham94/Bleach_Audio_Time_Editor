@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BNK File Editor</title>
+    <script src="bnk_editor.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>BNK File Editor</h2>
+        <div>
+            <label for="fileInput" class="label">Select .bnk File:</label>
+            <input type="file" id="fileInput" accept=".bnk" class="file-input">
+        </div>
+        <div>
+            <label for="songId" class="label">Enter Song ID (e.g., 645147669):</label>
+            <input type="text" id="songId" class="input" placeholder="Enter song ID">
+        </div>
+        <div>
+            <label for="newTime" class="label">Enter New Time (milliseconds):</label>
+            <input type="text" step="0.001" id="newTime" class="input" placeholder="Enter new time">
+        </div>
+        <button onclick="uploadFile()" class="button">Process File</button>
+        <pre id="output" class="output"></pre>
+    </div>
+</body>
+</html>
